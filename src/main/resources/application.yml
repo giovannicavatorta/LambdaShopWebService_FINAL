@@ -1,0 +1,19 @@
+# Inserisco gli elementi fondamentali della configurazione del web service
+
+# Specifico il numero di porta (opzionale)
+server:
+  port: 5071
+
+# Configurazioni piu' importanti
+spring:
+  application: # Opzionale
+    name: LambdaShopWebService
+  # Dati di accesso al DB
+  data:
+    mongodb:
+      authentication-database: admin
+      database: lambdashop
+      host: localhost
+      password: pswtest
+      port: 27017
+      username: WebClient
